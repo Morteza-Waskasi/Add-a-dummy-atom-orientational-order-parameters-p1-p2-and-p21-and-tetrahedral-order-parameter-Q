@@ -1,7 +1,8 @@
-I have three scripts which I would like to share. 
-The first one adds a dummy atom (or more) to existing trajectory (dcd). 
-The second one calculates orientational order parameters p1, p2 and p21 and tetrahedral order parameter Q for the first hydration shell. 
-The third one calculates the polarization of water in hydration shell of different diameters. The result polarization from this code can be used to calculate the dielectric constant of water at the interface of the solute. 
+I have four scripts which I would like to share. 
+The first one ("add_dummy_c60_0.tcl") adds a dummy atom (or more) to existing trajectory (dcd). 
+The "OrderParameter_c60_0.tcl" code calculates orientational order parameters p1, p2 and p21 and tetrahedral order parameter Q for the first hydration shell. 
+The "polarization.tcl" code calculates the polarization of water in hydration shell of different diameters. The result polarization from this code can be used to calculate the dielectric constant of water at the interface of the solute. 
+The "HB.tcl" code calculates the number of hydrogen bonding in hydration shell.
 
 For more details see:
 
